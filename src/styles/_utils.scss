@@ -1,0 +1,44 @@
+.minmax-w-50p {
+    min-width: 50%;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.main-shadow {
+    box-shadow: 1px 1px 10px #bbcfff;
+}
+
+.container, .hero {
+    min-height: 87.5vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 75vh!important;
+
+    &.column {
+        flex-direction: column;
+    }
+
+    &.row {
+        flex-direction: row;
+    }
+
+    & > div {
+        min-height: 0!important;
+    }
+}
